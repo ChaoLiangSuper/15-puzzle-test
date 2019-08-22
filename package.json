@@ -25,6 +25,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --watchAll",
     "coverage": "react-scripts test --coverage --watchAll",
+    "serve": "./build-serve.sh",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

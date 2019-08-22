@@ -1,6 +1,8 @@
 
 # 15-puzzle-test
 
+This game uses `yarn` as the package manager
+
 ### Install dependencies
 
 `yarn install`
@@ -17,6 +19,17 @@
 
 `yarn coverage`
 
+## Build production code
+
+`yarn build`
+
+## Build and server in local
+
+`yarn serve`
+This step requires `Docker`
+Open browser at localhost:4000 to see the game
+
+# GAME
 ## How to play this game?
 This game accepts mouse click only. When clicking on one of these tiles and this tile has an empty neighbor, it will to the empty spot.
 
