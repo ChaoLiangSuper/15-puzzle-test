@@ -1,0 +1,29 @@
+@import 'variables'
+
+@mixin cell-share
+  display: inline-flex
+  $size: 130px
+  width: $size
+  height: $size
+  font-size: 4rem
+  margin: $default-margin
+  justify-content: center
+  align-items: center
+
+  @media screen and (max-width: $media-small)
+    $size: 80px
+    width: $size
+    height: $size
+    font-size: 2rem
+
+.cell
+  @include cell-share
+  border-radius: 0.5rem
+  background: $cell-background
+
+  &:hover
+    background: darken($cell-background, 10%)
+    cursor: pointer
+
+  &.empty
+    height: 0
