@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Grid /> should initialize without crash and match snapshot 1`] = `
+<div
+  className="grid"
+>
+  <Cell
+    displayValue={1}
+    handleCellclick={[Function]}
+  />
+  <Cell
+    displayValue={2}
+    handleCellclick={[Function]}
+  />
+  <Cell
+    displayValue={3}
+    handleCellclick={[Function]}
+  />
+  <Cell
+    displayValue={4}
+    handleCellclick={[Function]}
+  />
+  <div />
+  <Cell
+    displayValue={5}
+    handleCellclick={[Function]}
+  />
+  <Cell
+    displayValue={6}
+    handleCellclick={[Function]}
+  />
+  <Cell
+    displayValue={7}
+    handleCellclick={[Function]}
+  />
+  <Cell
+    displayValue={8}
+    handleCellclick={[Function]}
+  />
+  <div />
+  <Cell
+    displayValue={9}
+    handleCellclick={[Function]}
+  />
+  <Cell
+    displayValue={10}
+    handleCellclick={[Function]}
+  />
+  <Cell
+    displayValue={11}
+    handleCellclick={[Function]}
+  />
+  <Cell
+    displayValue={12}
+    handleCellclick={[Function]}
+  />
+  <div />
+  <Cell
+    displayValue={13}
+    handleCellclick={[Function]}
+  />
+  <Cell
+    displayValue={14}
+    handleCellclick={[Function]}
+  />
+  <Cell
+    displayValue={0}
+    handleCellclick={[Function]}
+  />
+  <Cell
+    displayValue={15}
+    handleCellclick={[Function]}
+  />
+  <div />
+</div>
+`;
+
+exports[`<Grid /> should render <Overlay /> if the game if solved 1`] = `
+<div
+  className="grid"
+>
+  <Cell
+    displayValue={1}
+    handleCellclick={[Function]}
+  />
+  <Cell
+    displayValue={2}
+    handleCellclick={[Function]}
+  />
+  <Cell
+    displayValue={3}
+    handleCellclick={[Function]}
+  />
+  <Cell
+    displayValue={4}
+    handleCellclick={[Function]}
+  />
+  <div />
+  <Cell
+    displayValue={5}
+    handleCellclick={[Function]}
+  />
+  <Cell
+    displayValue={6}
+    handleCellclick={[Function]}
+  />
+  <Cell
+    displayValue={7}
+    handleCellclick={[Function]}
+  />
+  <Cell
+    displayValue={8}
+    handleCellclick={[Function]}
+  />
+  <div />
+  <Cell
+    displayValue={9}
+    handleCellclick={[Function]}
+  />
+  <Cell
+    displayValue={10}
+    handleCellclick={[Function]}
+  />
+  <Cell
+    displayValue={11}
+    handleCellclick={[Function]}
+  />
+  <Cell
+    displayValue={12}
+    handleCellclick={[Function]}
+  />
+  <div />
+  <Cell
+    displayValue={13}
+    handleCellclick={[Function]}
+  />
+  <Cell
+    displayValue={14}
+    handleCellclick={[Function]}
+  />
+  <Cell
+    displayValue={0}
+    handleCellclick={[Function]}
+  />
+  <Cell
+    displayValue={15}
+    handleCellclick={[Function]}
+  />
+  <div />
+  <Overlay
+    displayText="WIN"
+  />
+</div>
+`;

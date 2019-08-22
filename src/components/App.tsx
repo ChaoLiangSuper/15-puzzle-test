@@ -2,11 +2,7 @@ import React from 'react';
 import Grid from './Grid';
 import { getNewTiles, isMoveable, checkSolveState } from '../utils';
 import { edgeLength } from '../config';
-
-interface IAppState {
-  tiles: Number[];
-  isSolved: boolean;
-}
+import { IAppState } from '../types';
 
 class App extends React.Component<{}, IAppState> {
   state = {

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Cell /> should initialize without crash and match snapshot 1`] = `
+<div
+  className="cell"
+  onClick={[MockFunction]}
+>
+  5
+</div>
+`;

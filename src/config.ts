@@ -1,1 +1,1 @@
-export const edgeLength = 4;
+export const edgeLength: number = 4;

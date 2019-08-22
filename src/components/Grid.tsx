@@ -2,13 +2,7 @@ import _ from 'lodash';
 import React from 'react';
 import Cell from './Cell';
 import Overlay from './Overlay';
-
-interface IGridProp {
-  tiles: number[];
-  edgeLength: number;
-  handleCellclick: (p: number) => void;
-  isSolved: boolean;
-}
+import { IGridProp } from '../types';
 
 const Grid: React.FC<IGridProp> = ({
   tiles,

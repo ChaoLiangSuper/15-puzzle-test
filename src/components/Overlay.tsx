@@ -1,8 +1,5 @@
 import React from 'react';
-
-interface IOverlayProps {
-  displayText: string;
-}
+import { IOverlayProps } from '../types';
 
 const Overlay: React.FC<IOverlayProps> = ({ displayText }) => (
   <div className='overlay'>{displayText}</div>

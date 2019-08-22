@@ -34,7 +34,6 @@ export const isMoveable = (
 
 export const checkSolveState = (tiles: number[]) => {
   if (tiles[tiles.length - 1] === 0) {
-    console.log(tiles.slice(0, tiles.length - 2));
     return tiles
       .slice(0, tiles.length - 2)
       .every((value, index) => value === index + 1);
