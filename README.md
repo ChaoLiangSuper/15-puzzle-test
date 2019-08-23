@@ -1,4 +1,3 @@
-
 # 15-puzzle-test
 
 This game uses `yarn` as the package manager
@@ -15,25 +14,28 @@ This game uses `yarn` as the package manager
 
 `yarn test`
 
-## Run all test with coverage
+### Run all test with coverage
 
 `yarn coverage`
 
-## Build production code
+### Build production code
 
 `yarn build`
 
-## Build and server in local
+### Build and server in local
 
 `yarn serve`
 This step requires `Docker`
 Open browser at localhost:4000 to see the game
 
 # GAME
+
 ## How to play this game?
+
 This game accepts mouse click only. When clicking on one of these tiles and this tile has an empty neighbor, it will to the empty spot.
 
 ## How to win?
+
 After moving tiles and reach this stage (showing below), this puzzle is solved.
 And you will see a WIN in the middle of the game board.
 
@@ -50,4 +52,5 @@ And you will see a WIN in the middle of the game board.
 ```
 
 ## How to restart?
+
 There is a button right below the game board, click it the game will be reset.
